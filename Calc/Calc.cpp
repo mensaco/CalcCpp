@@ -31,7 +31,7 @@ int main() {
 	cout << "Vendosni numrin e pare(numer i plote dhe me i madh se 0): ";
 	cin >> x;
 
-	cout << "Vendosni numrin e dyte(numrat mund te jene vetem pozitiv): ";
+	cout << "Vendosni numrin e dyte(numer i plote dhe me i madh se 0): ";
 	cin >> y;
 
 	cout << "\n"; // lere nje rresht te thate
@@ -119,7 +119,7 @@ int main() {
 
 
 	case 50: // /*
-		cout << x << veprimi << y << "=" << (x / y) * y;
+		cout << x << veprimi << y << "=" << (x / y) * y; // ketu nuk guxon te thjeshtohet me x
 		break;
 
 	case 53: // //
