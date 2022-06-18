@@ -22,7 +22,7 @@ int main() {
 	cout << "=============================================================\n";
 	cout << "\n";
 
-	while (true) {
+	
 
 
 	cout << "Vendosni operatorin(+ - * /): ";
@@ -41,8 +41,7 @@ int main() {
 	string veprimet = "+ - * / ++ +- +* +/ -+ -- -* -/ *+ *- ** */ /+ /- /* //";
 	string::size_type loc = veprimet.find(veprimi, 0);
 
-	cout << veprimi << " " << loc << endl;
-
+	
 	switch (loc)
 	{
 	case 0: // +
@@ -139,7 +138,7 @@ int main() {
 
 	cout << "\n"; // lere nje rresht te thate
 	cout << "\n"; // lere nje rresht te thate
-		}
+		
 
 	return 0;
 }
